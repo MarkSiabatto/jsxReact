@@ -1,10 +1,10 @@
 import React from "react";
-import { ReactDOM } from "react-dom/client";
+import ProfileCard from "./components/ProfileCard";
 
 const App = () => {
     return (
         <div>
-            <h1>Testing</h1>
+            <ProfileCard />
         </div>
     )
 }
