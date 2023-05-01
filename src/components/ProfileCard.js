@@ -1,11 +1,13 @@
 import React from "react";
 
-const ProfileCard = () => {
-    return (
-      <div>
-        <h1>Testing JSX</h1>
-      </div>
-    );
-}
+const ProfileCard = ({ title, handle, image }) => {
+  return (
+    <div>
+      <h1>{title}</h1>
+      <p>{handle}</p>
+      <img src={image} alt="logo" />
+    </div>
+  );
+};
 
 export default ProfileCard;
